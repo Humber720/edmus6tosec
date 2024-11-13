@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Calificaciones</title>
+    <link rel="stylesheet" href="plataforma.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido/a, <span id="student-name">Estudiante</span></h2>
+        <table id="grades-table">
+            <tr>
+                <th>Trimestres</th>
+                <th>Nota</th>
+                <th>Descripción</th>
+                <th>Observación</th>
+            </tr>
+            <!-- Filas de calificaciones se insertarán aquí -->
+        </table>
+        <button onclick="logout()">Salir</button>
+    </div>
+
+    <!-- Script para cargar las notas y manejar la sesión -->
+    <script src="plataforma.js"></script>
+</body>
+</html>

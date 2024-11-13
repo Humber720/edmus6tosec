@@ -1,0 +1,74 @@
+/* Estilo para centrar el contenido */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,133,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+/* Encabezado */
+.container h2 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Tabla de calificaciones */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Estilo para encabezados de la tabla */
+th {
+    background-color: #2a9d8f;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo para las filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #e9f5f3;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21867a;
+}
